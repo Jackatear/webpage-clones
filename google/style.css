@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+html{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-menu{
+    display: flex;
+    
+}
+
+.primary-header{
+    display:flex;
+    flex-grow: 1;
+    gap: 1rem;
+    padding: 10px;
+}
+
+
+
+.secondary-header {
+    display:flex;
+    justify-content:right;
+    flex-grow: 4;
+    gap: 1rem;
+    padding: 10px;
+}
+.dotted-button{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+
+}
+.user-button{
+    background-color: aquamarine;
+    height: 20px;
+    width:20px;
+}
+
+.image-container{
+    padding-top: 40px;
+    align-self: center;
+}
+img{
+    height: 160px;
+    width: auto;
+}
+
+
+
+.search-container{
+    align-self: center;
+    display: flex;
+}
+form{
+
+    flex: 1;
+    width: 700px;
+    height: 2.5rem;
+    background-color: rgb(199, 207, 213);
+    border-radius: 50px;
+    margin: 5px;
+    display: flex;
+    transition: 0.1s;
+    align-items: center;
+    justify-content: space-between;
+}
+form:hover{
+    background-color: white;
+}
+.magnifying-glass{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 100px;
+    margin-left: 5px
+    
+}
+
+.search-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+    flex: 1;
+    flex-grow: 0;
+}
+
+.search-buttons div{
+    border: 1px solid rgb(250, 250, 250);
+    background-color: rgb(250, 250, 255);
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.search-buttons div:hover{
+    border: 1px solid rgb(230,240,230);
+    cursor: pointer;
+    font-size: 1.1rem;
+
+}
+
+
+.space{
+    flex: 1;
+    flex-grow:6;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    background-color: #F2F2F2;
+}
+.carbon{
+    /* border-bottom: solid rgb(193, 185, 185) 1px; */
+    padding-top: 4px;
+    justify-self: center;
+    align-self: center;
+    font-size: 1rem;
+}
+.carbon *{
+    padding-top: 4px;
+    color:#202124b9;
+}
+.carbon .leaf{
+    display: inline-block;
+    height: 1.2rem;
+}
+
+
+.links{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+.links *{
+    color:#202124b9;
+}
